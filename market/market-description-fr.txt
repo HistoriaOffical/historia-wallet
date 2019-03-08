@@ -1,0 +1,36 @@
+Utilisation à vos risques et périls ! (Nécessite Android 4 ou ultérieur)
+
+<b>Vos dashs toujours avec vous, dans votre poche !</b> Payez en scannant simplement un QR-code. Si vous êtes un vendeur, recevez vos paiements de manière sûre et instantanée. Le portefeuille Dash est la première application Dash mobile, et sans doute la mieux sécurisée !
+
+<b>CARACTÉRISTIQUES</b>
+
+• Pas d'enregistrement, de service web ni de réseau centralisé ! Ce portefeuille est décentralisé et entièrement pair-à-pair.
+• Affichage des sommes en DASH, mDASH ou µDASH.
+• Conversion depuis et vers les monnaies nationales.
+• Envoi et réception de dashs par NFC, QR-codes ou adresses URL Dash.
+• Carnet d'adresses pour conserver les adresses Dash les plus utilisées.
+• Si vous n'êtes pas en ligne, vous pouvez quand même payer via Bluetooth.
+• Notification système en cas de réception d'argent.
+• Récupération de portefeuilles papier (<i>paper wallets</i>, utilisés pour le stockage sécurisé).
+• Widget pour connaître votre solde Dash.
+
+
+<b>CONTRIBUEZ !</b>
+
+Dash Wallet est un <b>logiciel libre open source</b>. Licence : GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Notre code source est disponible sur GitHub :
+https://github.com/HashEngineering/dash-wallet
+
+Les traductions sont gérées par Transifex :
+https://www.transifex.com/dash/dash-wallet/
+
+Plus d'informations sur Dash sur le site
+https://www.dash.org/
+
+<b>TÉMOIGNAGES</b>
+
+• Portefeuille mobile recommandé par https://www.dash.org
+
+<i>Utilisation à vos risques et périls !</i>

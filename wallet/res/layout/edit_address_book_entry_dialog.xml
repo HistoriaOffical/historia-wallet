@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialogContainer">
+
+    <EditText
+        android:id="@+id/edit_address_book_entry_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MontserratMedium.DB.14"
+        android:hint="@string/edit_address_book_entry_dialog_address_label"
+        android:enabled="false"
+        android:focusable="false"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="none"
+        android:layout_marginBottom="28dp"
+        android:textColor="@color/fg_less_significant" />
+
+    <EditText
+        android:id="@+id/edit_address_book_entry_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MontserratMedium.DB.14"
+        android:hint="@string/edit_address_book_entry_dialog_label_label"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="textPersonName"
+        android:singleLine="true">
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

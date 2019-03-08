@@ -1,0 +1,183 @@
+apply plugin: 'com.android.application'
+
+ext {
+    archivesBaseName = 'dash-wallet'
+    androidSupportVersion = '28.0.0'
+}
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
+
+dependencies {
+    implementation "com.android.support:design:$androidSupportVersion"
+    implementation "com.android.support:appcompat-v7:$androidSupportVersion"
+    implementation "com.android.support:support-v4:$androidSupportVersion"
+    implementation(project(':integration-android')) {
+        exclude(group: 'com.google.android', module: 'android')
+    }
+    implementation "com.android.support:support-annotations:$androidSupportVersion"
+    implementation "com.android.support:support-compat:$androidSupportVersion"
+    implementation("com.android.support:support-v13:$androidSupportVersion") {
+        exclude(group: 'com.android.support', module: 'support-fragment')
+        exclude(group: 'com.android.support', module: 'support-media-compat')
+    }
+    implementation "com.android.support:support-core-utils:$androidSupportVersion"
+    implementation "com.android.support:recyclerview-v7:$androidSupportVersion"
+    implementation "com.android.support:cardview-v7:$androidSupportVersion"
+    implementation "com.android.support:preference-v7:$androidSupportVersion"
+    implementation "org.dashj:dashj-core:$dashjVersion"
+    implementation 'com.google.protobuf:protobuf-java:2.6.1'
+    implementation 'com.google.guava:guava:20.0'
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
+    implementation 'com.squareup.moshi:moshi:1.3.1'
+    //implementation 'com.netki:wallet-name-resolver:0.1.3'
+    implementation 'com.hashengineering:dash-wallet-name-resolver:0.1.4-12.1'
+    implementation 'org.slf4j:slf4j-api:1.7.22'
+    implementation('com.github.tony19:logback-android-classic:1.1.1-6') {
+        exclude(group: 'com.google.android', module: 'android')
+    }
+    implementation 'com.github.tony19:logback-android-core:1.1.1-6'
+    implementation 'com.google.code.findbugs:jsr305:2.0.3'
+
+    implementation project(path: ':common')
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    //releaseImplementation project(path: ':common', configuration: 'release')
+    //Uphold Integration
+    implementation project(path: ':uphold-integration')
+    //releaseImplementation project(path: ':uphold-integration', configuration: 'release')
+    //Memory Leak Detection
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    testImplementation 'junit:junit:4.12'
+    //Espresso
+    androidTestImplementation ('com.android.support.test:runner:1.0.1') {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation ('com.android.support.test.espresso:espresso-core:3.0.1') {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation ('com.android.support.test.espresso:espresso-intents:3.0.1') {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}
+
+
+ext {
+    archivesBaseName = 'dash-wallet'
+}
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        generatedDensities = ['hdpi', 'xhdpi']
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86'
+        }
+        externalNativeBuild {
+            cmake {
+                cFlags '-DHAVE_CONFIG_H'
+                cppFlags ""
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+    }
+
+    buildTypes {
+        all {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+            testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg', 'proguardTest-rules.txt'
+        }
+        debug {
+            debuggable true
+        }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        test {
+            java.srcDirs = ['test']
+            resources.srcDirs = ['test']
+        }
+        androidTest {
+            java.srcDirs = ['androidTest']
+            resources.srcDirs = ['androidTest/java']
+            res.srcDirs = ['androidTest/testNet3/res']
+        }
+        _testNet3 {
+            res.srcDirs = ["testNet3/res"]
+        }
+        beta {
+            res.srcDirs = ["beta/res"]
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        beta {
+            applicationId = "hashengineering.dash.wallet.beta"
+        }
+        prod {
+            applicationId = "hashengineering.darkcoin.wallet"
+        }
+        _testNet3 {
+            applicationId = "hashengineering.darkcoin.wallet_test"
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'cpp/CMakeLists.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+        exclude 'lib/x86_64/freebsd/libscrypt.so'
+        exclude 'lib/x86_64/linux/libscrypt.so'
+        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixPatterns.gwt.xml'
+        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixType.gwt.xml'
+        exclude 'org/bitcoinj/crypto/mnemonic/wordlist/english.txt'
+        exclude 'org/bitcoinj/crypto/cacerts'
+        exclude 'org.bitcoin.production.checkpoints.txt'
+        exclude 'org.bitcoin.test.checkpoints.txt'
+        exclude 'messages.properties'
+        exclude 'META-INF/services/sun.net.spi.nameservice.NameServiceDescriptor'
+        exclude 'META-INF/services/org.xmlpull.v1.XmlPullParserFactory'
+    }
+    dexOptions {
+        preDexLibraries true
+    }
+}
+
+clean {
+    file('src/main/jniLibs').deleteDir()
+}
+
+/*task svgToPngMipmap(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
+    from = files('graphics/mipmap')
+    to = file('res')
+    targetedDensities = ['hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi']
+    outputFormat = 'PNG'
+    outputType = 'mipmap'
+}*/

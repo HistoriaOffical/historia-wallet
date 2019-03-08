@@ -1,0 +1,36 @@
+<b>Hav altid dine Dash med dig i din lomme!</b> Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Dash Wallet er den første mobile Dash-app, og muligvis også den mest sikre!
+
+
+<b>FUNKTIONER</b>
+
+• Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
+• Visning af Dash-beløb i DASH, mDASH og µDASH.
+• Konvertering til og fra lokale valutaer.
+• Afsendelse og modtagelse af Dash via NFC, QR-koder eller Dash-URLer.
+• Adressebog til ofte brugte Dash-adresser.
+• Når du er offline, kan du stadig betale via Bluetooth.
+• Systemnotifikation for modtagne mønter.
+• Rydning af papirtegnebøger (fx de der bruges til kold opbevaring).
+• App-widget for Dash-saldo.
+
+
+<b>BIDRAG</b>
+
+Dash Wallet er <b>fri software</b> med <b>åben kildekode</b>. Licens: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Vores kildekode er tilgængelig på GitHub:
+https://github.com/HashEngineering/darkcoin-wallet
+
+Alle oversættelser håndteres via Transifex:
+https://www.transifex.com/dash/dash-wallet/
+
+
+<b>ANBEFALINGER</b>
+
+• Mange mobile tegnebøger baserer deres kode på Bitcoin Wallet. Eksempler: blockchain.info og BTCX.
+• Anbefalet mobil-tegnebog af https://dash.org
+• Anbefalet af BitPay.
+
+
+<i>Brug for egen risiko!</i>

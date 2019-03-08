@@ -1,0 +1,27 @@
+<b>Mindig legyenek nálad a Bitcoin-jaid a zsebedben!</b> Úgy tudsz fizetni, hogy gyorsan beolvasol egy QR kódot. Kereskedőként megkapod a fizetséget megbízhatóan és azonnal. A Bitcoin Wallet az első mobil Bitcoin alkalmazás és vitathatatlanul a legbiztonságosabb is!
+
+
+<b>JELLEMZŐK</b>
+
+• Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
+
+<b>HOZZÁJÁRULÁS</b>
+
+A Bitcoin Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licenc: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+A forráskódunk elérhető a GitHub-on:
+https://github.com/HashEngineering/darkcoin-wallet
+
+Minden fordítást a Transifex kezelt:
+https://www.transifex.com/dash/dash-wallet/
+
+
+<b>AJÁNLÓLEVELEK</b>
+
+• Sok mobiltárca a Bitcoin Wallet-re alapozza a kódját. Például: blockchain.info és BTCX.
+• Ajánlott mobiltárca a https://dash.org által
+• Ajánlva a BitPay által.
+
+
+<i>Saját felelősségedre használd!</i>

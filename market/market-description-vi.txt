@@ -1,0 +1,36 @@
+Hãy sử dụng và tự chấp nhận rủi ro (Cần Android 4 hoặc cao hơn)
+
+<b>Có Dash luôn luôn bên bạn, ngay trong túi bạn!</b> Bạn thanh toán bằng cách quét mã QR một cách nhanh chóng. Cũng như một thương nhân bạn có thể nhận thanh toán một cách tin cậy và tức thời. Ví Dash là ứng dụng di động đầu tiên của Dash, và được cho là an toàn nhất!
+
+<b>CÁC TÍNH NĂNG</b>
+
+• Không cần đăng ký, cần sử dụng đến dịch vụ web hoặc dịch vụ đám mây! Ví này là phi tập trung và kết nối ngang hàng.
+• Hiển thị số Dash theo các đơn vị DASH, mDASH và µDASH.
+• Chuyển đổi theo các đơn vị tiền tệ quốc gia.
+• Gửi và nhận Dash thông qua NFC, mã QR hoặc địa chỉ URL Dash.
+• Sổ địa chỉ cho những địa chỉ Dash được dùng thường xuyên.
+• Khi bạn ngừng kết nối, bạn vẫn có thể thanh toán qua Bluetooth.
+• Thông báo hệ thống khi nhận được tiền.
+• Quét ví giấy (e.g. những thứ được dùng để lưu trữ lạnh).
+• App widget cho số dư Dash.
+
+
+<b>ĐÓNG GÓP</b>
+
+Ví Dash là <b>mã nguồn mở</b> và <b>phần mềm dùng tự do</b>. Theo giấy phép: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Mã nguồn có thể tìm thấy ở GitHub:
+https://github.com/HashEngineering/dash-wallet
+
+Tất cả các bản dịch được thực hiện thông qua Transifex:
+https://www.transifex.com/dash/dash-wallet/
+
+Bạn có thể tìm thêm thông tin về Dash tại
+https://www.dash.org/
+
+<b>NHỮNG LỜI CHỨNG</b>
+
+• Ví di động được gợi ý bởi https://www.dash.org
+
+<i>Hãy dùng và tự chịu rủi ro!</i>

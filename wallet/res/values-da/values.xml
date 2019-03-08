@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+	<string-array name="preferences_precision_labels">
+		<item>DASH, 8 decimaler</item>
+		<item>DASH, 6 decimaler</item>
+		<item>DASH, 4 decimaler</item>
+		<item>mDASH, 2 decimaler</item>
+		<item>µDASH, uden decimaler</item>
+	</string-array>
+
+</resources>

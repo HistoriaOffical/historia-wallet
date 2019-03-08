@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_list"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/list_entry_padding"
+    android:paddingLeft="@dimen/space_medium"
+    android:paddingRight="@dimen/space_medium"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/address_book_row_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        tools:text="(unlabeled)"
+        style="@style/MontserratRegular.DB.12"/>
+
+    <TextView
+        android:id="@+id/address_book_row_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="HDmNA44q1cVJmuL7efHQdroeGFU9D3VHzS"
+        style="@style/MontserratRegular.MG.12"/>
+
+    <TextView
+        android:id="@+id/address_book_row_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/address_book_row_message_compromised_key"
+        android:textColor="@color/fg_error"
+        android:textSize="@dimen/font_size_small"
+        style="@style/MontserratMedium"
+        android:visibility="gone" />
+
+</LinearLayout>

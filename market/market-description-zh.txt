@@ -1,0 +1,36 @@
+风险自负! (需要高于安卓4.0版本)
+
+<b>达世币伴您左右，由您掌控！</b> 您可以通过扫QR码轻松支付。 作为商户，您能够即时接收可靠的每笔交易。达世币手机钱包是达世币第一款移动app，十分安全！
+
+<b>特性</b>
+
+• 无需注册；连接网络云服务器即可！本钱包完全去中心化，采用点对点技术。
+• 以DASH，mDASH，或µDASH表示。
+• 与国际货币进行兑换。
+• 通过NFC、QR码或链接发送或接收达世币。
+• 通过通讯簿记录常用达世币地址。
+• 当您断网时，您仍可以通过蓝牙支付。
+• 接收到达世币时系统提示。
+• 扫描纸钱包（如那些用于冷存储的方式）。
+• 达世币余额小工具。
+
+
+<b>贡献</b>
+
+达世币钱包是<b>开源</b> 的 <b>免费软件</b>。证书：GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+可以在GitHub查看我们的源代码：
+https://github.com/HashEngineering/dash-wallet
+
+所有翻译经由Transifex管理注入：
+https://www.transifex.com/dash/dash-wallet/
+
+你可以在这里找到更多达世币信息
+https://www.dash.org/
+
+<b>客户评价</b>
+
+由 https://www.dash.org 推荐使用的移动钱包
+
+<i>妥善使用，风险自负</i>

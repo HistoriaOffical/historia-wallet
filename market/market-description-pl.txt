@@ -1,0 +1,36 @@
+Używaj na własne ryzyko (Wymagany Android 4 lub wyższy)
+
+<b>Miej swoje Dashe zawsze przy sobie, we własnym portfelu!</b> Płacisz błyskawicznie skanując kody QR. Jako sprzedawca odbierzesz płatności szybko i bezpiecznie. Dash Wallet jest pierwszą mobilną aplikacją i prawdopodobnie również najbardziej bezpieczną!
+
+<b>FUNKCJE</b>
+
+• Niewymagana rejestracja! Ten portfel bazuje na technologii peer to peer oraz jest w pełni zdecentralizowany.
+• Możliwość wyświetlania ilości Dash w formie: DASH, mDASH oraz µDASH.
+• Konwersja do lokalnej waluty.
+• Wysyłanie i odbieranie Dash przez NFC, kody QR oraz Dash URLs.
+• Książka adresowa do przechowywania często używanych adresów Dash.
+• Jeśli nie masz dostępu do sieci, nadal możesz płatności korzystając z Bluetooth.
+• Powiadomienia systemowe o transakcjach przychodzących.
+• Wczytywanie portfeli papierowych (np. używanych jako cold storage).
+• Widget wyświetlający aktualne saldo.
+
+
+<b>WKŁAD</b>
+
+Dash Wallet bazuje na <b>open source</b> oraz <b>free software</b>. Licencja: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Kod źródłowy jest dostępny na GitHub:
+https://github.com/HashEngineering/dash-wallet
+
+Do zarządzania tłumaczeniami wykorzystano portal Transifex:
+https://www.transifex.com/dash/dash-wallet/
+
+Dowiedz się wiecej o Dash na
+https://www.dash.org/
+
+<b>REFERENCJE</b>
+
+• Mobilny portfel zalecany przez https://www.dash.org
+
+<i>Używasz na własne ryzyko!<i>

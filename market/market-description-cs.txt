@@ -1,0 +1,36 @@
+﻿Use at your own risk! (Requires Android 4 or higher)
+
+<b>Mějte Dash neustále u sebe ve své kapse!</b> Oskenujte QR kód a zaplaťte rychle. Jako obchodník obdržíte platby téměř okamžitě a spolehlivě. Elektronická peněženka Dash je první mobilní aplikací Dash a pravděpodobně taky tou nejbezpečnější.
+
+<b>VLASTNOSTI</b>
+
+• Není zapotřebí žádná registrace, webová služba ani cloud! Peněženka je decentralizovaná a funguje na bázi peer-to-peer sítě.
+• Dash si můžete zobrazit buď jako DASH, mDASH nebo µDASH.
+• Dash lze vyměnit za běžné peníze nebo ho za ně koupit.
+• Dash lze posílat i přijímat skrze NFC, QR kódy nebo Dash URL.
+• Adresář pro často používané Dash adresy.
+• Pokud jste offline, můžete stále zaplatit přes Bluetooth.
+• Systémová oznámení při obdržení mincí.
+• Výběr z papírových peněženek (např. těch, které jsou uloženy offline).
+Widget aplikace pro bilanci účtu.
+
+
+<b>ZAPOJTE SE TAKÉ</b>
+
+Peněženka Dash je <b>open source</b> a <b>bezplatný software</b>. Licence: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Náš zdrojový kód je dostupný na GitHub:
+https://github.com/HashEngineering/dash-wallet
+
+Všechny překlady probíhají na stránkách Transifex:
+https://www.transifex.com/dash/dash-wallet/
+
+You can find more about Dash at
+https://www.dash.org/
+
+<b>REFERENCE</b>
+
+• A recommended mobile wallet by https://www.dash.org
+
+<i>Používejte na vlastní riziko!</i>

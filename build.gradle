@@ -1,0 +1,25 @@
+ext {
+    dashjVersion = "0.14.7"
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath('fr.avianey.androidsvgdrawable:gradle-plugin:3.0.0') {
+            exclude group: 'xerces'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenLocal()
+        jcenter()
+    }
+}
