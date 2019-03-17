@@ -15,7 +15,7 @@
             android:id="@+id/wallet_balance_btc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white" />
+            android:textColor="#f00" />
         <TextView
             android:id="@+id/wallet_balance_too_much"
             android:layout_width="wrap_content"

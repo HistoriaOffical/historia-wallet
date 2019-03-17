@@ -47,7 +47,6 @@
                 android:layout_gravity="right|end"
                 app:fontFamily="@font/montserrat_regular"
                 app:fontWeight="100"
-                android:textColor="@color/white"
                 android:textSize="@dimen/app_bar_balance_local_font_size" />
 
         </LinearLayout>

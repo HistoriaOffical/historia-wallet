@@ -21,6 +21,7 @@
 
         <View style="@style/ListSeparator"/>
 
+        <!--
         <ImageView
             android:id="@+id/uphold_logo"
             android:layout_width="22.77dp"
@@ -41,7 +42,7 @@
             android:layout_marginLeft="14dp"
             android:layout_marginStart="14dp"
             style="@style/MontserratMedium.DB.14"/>
-
+        -->
     </RelativeLayout>
 
 </android.support.design.widget.NavigationView>

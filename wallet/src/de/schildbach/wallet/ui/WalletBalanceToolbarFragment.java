@@ -236,7 +236,7 @@ public final class WalletBalanceToolbarFragment extends Fragment implements Wall
 						org.bitcoinj.utils.ExchangeRate rate = new org.bitcoinj.utils.ExchangeRate(Coin.COIN,
 								exchangeRate.getFiat());
 						final Fiat localValue = rate.coinToFiat(balance);
-						viewBalanceLocal.setVisibility(View.VISIBLE);
+						viewBalanceLocal.setVisibility(View.GONE); //DON"T WANT TO SEE USD VALUE ANYMORE
 						viewBalanceLocal.setFormat(Constants.LOCAL_FORMAT.code(0,
 								org.dash.wallet.common.Constants.PREFIX_ALMOST_EQUAL_TO + exchangeRate.getCurrencyCode()));
 						viewBalanceLocal.setAmount(localValue);

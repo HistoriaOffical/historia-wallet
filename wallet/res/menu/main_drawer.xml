@@ -8,6 +8,7 @@
         android:title="@string/address_book_activity_title" />
     <item
         android:id="@+id/nav_exchenge_rates"
+        android:visible="false"
         android:title="@string/exchange_rates_activity_title" />
     <item
         android:id="@+id/nav_paper_wallet"
