@@ -43,6 +43,6 @@
         android:layout_marginBottom="80dp"
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_qrcode"
-        app:backgroundTint="@color/colorPrimary" />
+        app:backgroundTint="@color/fg_error" />
 
 </de.schildbach.wallet.ui.widget.KeyboardResponsiveCoordinatorLayout>

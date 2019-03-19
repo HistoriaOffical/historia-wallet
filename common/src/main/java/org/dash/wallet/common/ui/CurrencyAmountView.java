@@ -128,13 +128,13 @@ public final class CurrencyAmountView extends FrameLayout {
 
     public void setCurrencySymbol(@Nullable final String currencyCode) {
         if (MonetaryFormat.CODE_BTC.equals(currencyCode)) {
-            currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_dash);
+            currencySymbolDrawable = null; //getResources().getDrawable(R.drawable.currency_symbol_dash);
             localCurrencyCode = null;
         } else if (MonetaryFormat.CODE_MBTC.equals(currencyCode)) {
-            currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_mdash);
+            currencySymbolDrawable = null; //getResources().getDrawable(R.drawable.currency_symbol_mdash);
             localCurrencyCode = null;
         } else if (MonetaryFormat.CODE_UBTC.equals(currencyCode)) {
-            currencySymbolDrawable = getResources().getDrawable(R.drawable.currency_symbol_udash);
+            currencySymbolDrawable = null; //getResources().getDrawable(R.drawable.currency_symbol_udash);
             localCurrencyCode = null;
         } else if (currencyCode != null) // fiat
         {
