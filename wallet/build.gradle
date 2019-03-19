@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    archivesBaseName = 'dash-wallet'
+    archivesBaseName = 'historia-wallet'
     androidSupportVersion = '28.0.0'
 }
 repositories {
@@ -137,13 +137,13 @@ android {
     flavorDimensions "default"
     productFlavors {
         beta {
-            applicationId = "hashengineering.dash.wallet.beta"
+            applicationId = "historia.historia.wallet.beta"
         }
         prod {
-            applicationId = "hashengineering.darkcoin.wallet"
+            applicationId = "historia.historia.wallet"
         }
         _testNet3 {
-            applicationId = "hashengineering.darkcoin.wallet_test"
+            applicationId = "historia.historia.wallet_test"
         }
     }
     externalNativeBuild {

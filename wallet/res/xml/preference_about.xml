@@ -5,7 +5,7 @@
         android:key="about_version"
         android:title="@string/about_version_title" />
     <Preference
-		android:summary="© 2011-2018, the Bitcoin Wallet developers\n© 2014-2018 the Dash Wallet Developers"
+		android:summary="© 2011-2018, the Bitcoin Wallet developers\n© 2014-2018 the Dash Wallet Developers\n© 2018-2019 the Historia Core Developers"
         android:title="@string/about_copyright_title" />
     <Preference
         android:key="about_license"
@@ -17,11 +17,11 @@
     </Preference>
 	<Preference
 		android:key="about_source"
-		android:summary="https://github.com/HashEngineering/dash-wallet"
+		android:summary="https://github.com/HistoriaOffical/historia-wallet"
 		android:title="@string/about_source_title" >
 		<intent
 			android:action="android.intent.action.VIEW"
-			android:data="https://github.com/HashEngineering/dash-wallet" />
+			android:data="https://github.com/HistoriaOffical/historia-wallet" />
 	</Preference>
     <Preference
         android:key="about_market_app"
@@ -31,10 +31,10 @@
     <PreferenceCategory android:title="@string/about_category_credits" >
 		<Preference
 			android:key="about_credits_bitcoinj"
-			android:summary="https://github.com/HashEngineering/dashj" >
+			android:summary="https://github.com/HistoriaOffical/historiaj" >
 			<intent
 				android:action="android.intent.action.VIEW"
-				android:data="https://github.com/HashEngineering/dashj" />
+				android:data="hhttps://github.com/HistoriaOffical/historiaj" />
 		</Preference>
         <Preference
             android:key="about_credits_scrypt"
