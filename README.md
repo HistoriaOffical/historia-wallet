@@ -1,4 +1,4 @@
-Welcome to _Dash Wallet_, a standalone Dash payment app for your Android device!
+Welcome to _Historia Wallet_, a standalone Historia  app for your Android device!
 
 This project contains several sub-projects:
 
@@ -9,7 +9,7 @@ This project contains several sub-projects:
      Java Scrypt project at [GitHub](https://github.com/wg/scrypt).
  * __native-x11__
      Native code implementation for X11. The C files are copied from the
-     Java Scrypt project at [GitHub](https://github.com/hashengineering/dashj).
+     Java Scrypt project at [GitHub](https://github.com/HistoriaOffical/historiaj).
  * __market__:
      App description and promo material for the Google Play app store.
  * __integration-android__:
