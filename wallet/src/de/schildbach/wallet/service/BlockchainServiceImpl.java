@@ -225,9 +225,9 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
         final MonetaryFormat btcFormat = config.getFormat();
 
-        final String packageFlavor = application.applicationPackageFlavor();
+        final String packageFlavor = null;//application.applicationPackageFlavor();
         String msgSuffix = packageFlavor != null ? " [" + packageFlavor + "]" : "";
-
+        exchangeRate = null;
         if (exchangeRate != null) {
             exchangeRate.coinToFiat(amount);
             MonetaryFormat format = Constants.LOCAL_FORMAT.code(0,
