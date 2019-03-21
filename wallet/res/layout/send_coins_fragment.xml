@@ -155,6 +155,7 @@
 						android:layout_height="wrap_content"
 						android:imeOptions="flagNoExtractUi"
 						android:textSize="16sp"
+						android:visibility="invisible"
 						style="@style/MontserratRegular"
 						tools:ignore="TextFields" />
 
