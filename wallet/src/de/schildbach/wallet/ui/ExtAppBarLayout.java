@@ -19,7 +19,7 @@ import de.schildbach.wallet_test.R;
  */
 public class ExtAppBarLayout extends AppBarLayout {
 
-    private static final String DASH_WEBPAGE_URL = "http://www.dash.org";
+    private static final String DASH_WEBPAGE_URL = "http://historia.network";
 
     private View toolbarLogoView;
 
